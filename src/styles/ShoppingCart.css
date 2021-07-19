@@ -1,0 +1,14 @@
+div.shoppingCart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+
+div.shoppingQuantity {
+  opacity: 0;
+}
+
+div.shoppingCart:hover > div.shoppingQuantity {
+  opacity: 1;
+}

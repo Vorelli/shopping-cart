@@ -1,0 +1,15 @@
+div.displayCard {
+  flex-basis: 30%;
+  border-radius: 25%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  background-color: grey;
+  margin-bottom: 10px;
+}
+
+div.displayCard:hover {
+  background-color: #6d6d6d;
+}

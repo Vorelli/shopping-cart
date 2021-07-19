@@ -1,0 +1,10 @@
+div.shop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 50%;
+  min-width: 40%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
