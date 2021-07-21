@@ -6,8 +6,8 @@ import ShopContainer from './components/ShopContainer';
 function App() {
   return (
     <Router>
-      <Link to='/'>Home</Link>
-      <Link to='/shop'>Shop</Link>
+      <Link to='/shopping-cart'>Home</Link>
+      <Link to='/shopping-cart/shop'>Shop</Link>
       <Switch>
         <Route exact path='/' component={Home} />
         <Route path='/shop' component={ShopContainer} />
